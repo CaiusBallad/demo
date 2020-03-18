@@ -4,12 +4,10 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: 100604
-    #initialization-mode: always
-    schema: classpath:schema.sql
-    data: classpath:data.sql
+
 
 
 mybatis:
-    config-location: classpath:mybatis-config.xml
     mapper-locations: classpath:mapper/*.xml
-    type-aliases-package: com.example.demo.object
+    #config-location: classpath:mybatis-config.xml
+    #type-aliases-package: com.example.demo.object

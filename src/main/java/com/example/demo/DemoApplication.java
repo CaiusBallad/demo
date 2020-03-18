@@ -9,12 +9,11 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import javax.sql.DataSource;
 
 @SpringBootApplication
-@MapperScan(basePackages = "com.example.demo.mapper")
+@MapperScan(basePackages = "com.example.demo.dao")
 public class DemoApplication {
 
     public static void main(String[] args) {
         System.out.println("hi,long!");
         SpringApplication.run(DemoApplication.class, args);
     }
-
 }

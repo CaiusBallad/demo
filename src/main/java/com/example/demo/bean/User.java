@@ -1,21 +1,21 @@
-package com.example.demo.object;
+package com.example.demo.bean;
 
 import java.util.Date;
 
-public class DemoUser {
+public class User {
     private Integer id;
     private String username;
     private String password;
     private Date createTime;
 
-    public DemoUser(Integer id, String username, String password, Date createTime) {
+    public User(Integer id, String username, String password, Date createTime) {
         this.id = id;
         this.username = username;
         this.password = password;
         this.createTime = createTime;
     }
 
-    public DemoUser() {
+    public User() {
         this.id = 0;
         this.username = "none";
         this.password = "none";
